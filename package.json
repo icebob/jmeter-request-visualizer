@@ -1,0 +1,22 @@
+{
+  "name": "jmeter-request-visualizer",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --port 4000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.1",
+    "chartjs-adapter-luxon": "^1.1.0",
+    "chartjs-plugin-zoom": "^1.2.0",
+    "dropzone": "*",
+    "luxon": "^2.3.1",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "vite": "^2.8.0"
+  }
+}
